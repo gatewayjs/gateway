@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "dev": "DEBUG=PROCESSER* NODE_ENV=development node test/index.js",
+    "dev": "DEBUG=PROCESSER* NODE_ENV=development node development/index.js",
     "test": "autocannon -c 100 -d 40 -p 10 localhost:3000"
   },
   "author": "",
@@ -18,6 +18,7 @@
     "@babel/register": "^7.4.0",
     "@evio/intersect": "^1.0.4",
     "ajv": "^6.10.0",
+    "chalk": "^2.4.2",
     "co-body": "^6.0.0",
     "copy-to": "^2.0.1",
     "debug": "^4.1.1",

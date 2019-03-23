@@ -3,7 +3,9 @@ const { Public } = require('../../../');
 @Public
 class TextMiddleware {
   async middleware(req, res, next) {
-    req.abc = 123;
+    req.state.custom = {
+      abc: 123
+    };
     await next();
   }
 }

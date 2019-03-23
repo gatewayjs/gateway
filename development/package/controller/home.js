@@ -1,5 +1,4 @@
 const { Controller, Interface, Middleware, Http, Validator, Response } = require('../../../');
-const path = require('path');
 @Controller
 @Middleware(Interface.Middlewares.TextMiddleware)
 class ABC {

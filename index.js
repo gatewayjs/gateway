@@ -1,7 +1,7 @@
 exports.Interface = {};
 exports.Interface.Middlewares = {};
 exports.Interface.Services = {};
-exports.josify = require('./lib/master');
+exports.GateWay = require('./lib/master');
 exports.Controller = require('./lib/decorates/controller');
 exports.Middleware = require('./lib/decorates/middleware');
 exports.Service = require('./lib/decorates/service');
