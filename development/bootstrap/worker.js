@@ -3,5 +3,5 @@ module.exports = $plugin => {
   // ['connect', 'create', 'start', 'disconnect', 'close', 'end'].forEach(event => {
   //   app.on(event, () => console.log('  - Worker bootstrap pid:', process.pid + '.', 'Lifecycle:', '`' + event + '`', 'invoked.'));
   // });
-  // throw new Error('xxx')
+  // throw new Error('启动worker进程出错，请调整后重试！')
 }
