@@ -7,7 +7,7 @@ Microservice architecture of process gateway, referred to as `MAPG`. It can driv
 ## Usage
 
 ```bash
-$ npm i @evio/cli
+$ npm i -g @evio/cli
 $ cli install @gatewayjs/cli
 $ cli gw:new
 $ cd <project>
