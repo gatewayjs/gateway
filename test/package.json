@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "the cluster of josify",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "DEBUG=PROCESSER* NODE_ENV=development node test/index.js",
+    "test": "autocannon -c 100 -d 40 -p 10 localhost:3000"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/register": "^7.4.0",
+    "@evio/intersect": "^1.0.4",
+    "debug": "^4.1.1",
+    "detect-port": "^1.3.0",
+    "find-my-way": "^2.0.1",
+    "globby": "^9.1.0",
+    "is-class": "0.0.6",
+    "node-version-compare": "^1.0.2",
+    "reflect-metadata": "^0.1.13",
+    "statuses": "^1.5.0",
+    "stickpackage": "^3.0.5"
+  },
+  "josify": {
+    
+  }
+}
