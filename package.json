@@ -32,6 +32,7 @@
     "node-version-compare": "^1.0.2",
     "randomstring": "^1.1.5",
     "reflect-metadata": "^0.1.13",
+    "socket.io": "^2.2.0",
     "statuses": "^1.5.0",
     "stickpackage": "^3.0.5",
     "type-is": "^1.6.16"

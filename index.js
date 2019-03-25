@@ -1,6 +1,7 @@
 exports.Interface = {};
 exports.Interface.Middlewares = {};
 exports.Interface.Services = {};
+exports.Websocket = require('./lib/decorates/websocket');
 exports.GateWay = require('./lib/master');
 exports.Controller = require('./lib/decorates/controller');
 exports.Middleware = require('./lib/decorates/middleware');
