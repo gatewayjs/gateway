@@ -1,11 +1,8 @@
 {
   "name": "@gatewayjs/gateway",
-  "version": "1.0.0",
-  "description": "the cluster of josify",
+  "version": "1.0.1",
+  "description": "Microservice architecture of process gateway, referred to as `MAPG`. It can drive services to dynamically create ancillary process services, manage the whole life cycle of the process tree, provide a complete micro-service call chain, support `HTTP` `TCP` `IPC` and `WEBSOCKET`.",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "dev": "NODE_ENV=development node development/index.js",
     "debug": "DEBUG=PROCESSER* NODE_ENV=development node development/index.js",
