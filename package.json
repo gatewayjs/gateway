@@ -1,5 +1,5 @@
 {
-  "name": "@josify/cluster",
+  "name": "@gatewayjs/gateway",
   "version": "1.0.0",
   "description": "the cluster of josify",
   "main": "index.js",
@@ -11,6 +11,11 @@
     "debug": "DEBUG=PROCESSER* NODE_ENV=development node development/index.js",
     "test": "autocannon -c 100 -d 40 -p 10 localhost:3000"
   },
+  "files": [
+    "lib",
+    "index.js",
+    "README.md"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
