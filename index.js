@@ -11,3 +11,5 @@ exports.Http = require('./lib/decorates/http');
 exports.Decorate = require('./lib/decorates/interface');
 exports.Validator = require('./lib/decorates/validator');
 exports.Response = require('./lib/decorates/response');
+exports.createTcpClient = require('./lib/utils/tcp-client');
+exports.createTcpServer = require('./lib/utils/tcp-server');
