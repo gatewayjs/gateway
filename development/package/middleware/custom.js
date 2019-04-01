@@ -1,23 +1,6 @@
-const { Public } = require('../../../');
-
-// @Public
-// class TextMiddleware {
-//   async middleware(req, res, next) {
-//     req.state.custom = {
-//       abc: 123
-//     };
-//     await next();
-//   }
-// }
-
-// module.exports = TextMiddleware;
-
-
-async function middleware(req, res, next) {
-  req.state.custom = {
+module.exports = async function middleware(ctx, next) {
+  ctx.state.custom = {
     abc: 123
   };
   await next();
-}
-
-module.exports = middleware;
+};

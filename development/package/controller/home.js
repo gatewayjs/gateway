@@ -4,8 +4,8 @@ const custom = require('../middleware/custom');
 @Middleware(custom)
 class ABC {
   @Http.GET
-  async Welcome(req, res) {
-    return 'hello world' + req.state.custom.abc;
+  async Welcome(ctx) {
+    return 'hello world' + ctx.state.custom.abc;
   }
 
   @Http.POST
@@ -51,8 +51,8 @@ class ABC {
   //     }
   //   }
   // })
-  async Home(req, res) {
-    return req.location;
+  async Home(ctx) {
+    return ctx.location;
   }
 }
 
