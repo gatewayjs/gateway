@@ -1,6 +1,6 @@
 {
   "name": "@gatewayjs/gateway",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Microservice architecture of process gateway, referred to as `MAPG`. It can drive services to dynamically create ancillary process services, manage the whole life cycle of the process tree, provide a complete micro-service call chain, support `HTTP` `TCP` `IPC` and `WEBSOCKET`.",
   "main": "index.js",
   "scripts": {
